@@ -1,0 +1,20 @@
+.table-container, .upper-container{
+    margin: 2rem;
+}
+
+.demo-table {
+  width: 100%;
+}
+
+.demo-button-container {
+  padding-bottom: 16px;
+}
+
+.demo-button-container{
+    display: grid;
+    justify-content: end;
+}
+
+.demo-button{
+  padding: 2rem;
+}

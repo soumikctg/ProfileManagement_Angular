@@ -1,0 +1,39 @@
+<mat-toolbar color="primary">
+  <h1 mat-dialog-title class="head">Add Student</h1>
+</mat-toolbar>
+
+<form action="" [formGroup]="studentForm" (ngSubmit)="onSubmit()">
+  <div mat-dialog-content class="form-div">
+    <div class="form-row">
+      <mat-form-field>
+        <mat-label>First Name</mat-label>
+        <input formControlName="FirstName" matInput type="text" placeholder="Enter Last Name" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Last Name</mat-label>
+        <input formControlName="LastName" matInput type="text" placeholder="Enter Last Name" />
+      </mat-form-field>
+    </div>
+
+    <div class="form-row">
+      <mat-form-field>
+        <mat-label>Contact</mat-label>
+        <input formControlName="Contact" matInput type="text" placeholder="Enter Contact No" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Address</mat-label>
+        <input formControlName="Address" matInput type="text" placeholder="Enter address" />
+      </mat-form-field>
+    </div>
+
+    <mat-form-field>
+      <mat-label>Department</mat-label>
+      <input formControlName="Department" matInput type="text" placeholder="Enter Department" />
+    </mat-form-field>
+  </div>
+
+  <div mat-dialog-actions class="btn" style="justify-content: center">
+    <button type="button" mat-raised-button color="warn" class="btn-cancel" (click)="onClose()">Cancel</button>
+    <button type="submit" mat-raised-button color="primary" class="btn-save">Save</button>
+  </div>
+</form>
