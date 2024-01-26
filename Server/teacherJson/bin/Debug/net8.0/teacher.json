@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "Mila Richardson",
+    "Contact": "mila.richardson@email.com",
+    "Address": "123 Persimmon Street",
+    "Department": "Foreign Languages"
+  },
+  {
+    "Name": "Caleb Turner",
+    "Contact": "caleb.turner@email.com",
+    "Address": "456 Guava Avenue",
+    "Department": "History"
+  },
+  {
+    "Name": "Nora Brooks",
+    "Contact": "nora.brooks@email.com",
+    "Address": "789 Mango Road",
+    "Department": "English"
+  },
+  {
+    "Name": "Jackie Carter",
+    "Contact": "jackie.carter@email.com",
+    "Address": "234 Kiwi Lane",
+    "Department": "Political Science"
+  },
+  {
+    "Name": "Max Harris",
+    "Contact": "max.harris@email.com",
+    "Address": "567 Raspberry Drive",
+    "Department": "Computer Science"
+  },
+  {
+    "Name": "Aria Turner",
+    "Contact": "aria.turner@email.com",
+    "Address": "890 Blueberry Street",
+    "Department": "Psychology"
+  },
+  {
+    "Name": "Leo Foster",
+    "Contact": "leo.foster@email.com",
+    "Address": "345 Papaya Lane",
+    "Department": "Economics"
+  },
+  {
+    "Name": "Grace Thompson",
+    "Contact": "grace.thompson@email.com",
+    "Address": "678 Strawberry Court",
+    "Department": "Physical Education"
+  },
+  {
+    "Name": "Eli Turner",
+    "Contact": "eli.turner@email.com",
+    "Address": "901 Persimmon Boulevard",
+    "Department": "Art"
+  },
+  {
+    "Name": "Scarlett Hayes",
+    "Contact": "scarlett.hayes@email.com",
+    "Address": "123 Guava Avenue",
+    "Department": "Mathematics"
+  }
+]

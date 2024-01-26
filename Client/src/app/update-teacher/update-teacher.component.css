@@ -1,0 +1,36 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .head {
+    color: white;
+  }
+  
+  .btn {
+    padding-left: 1.5rem;
+    display: inline-block;
+    justify-content: end;
+  }
+  
+  .btn-cancel,
+  .btn-save {
+    padding: 1.7rem;
+    font-size: large;
+  }
+  
+  .form-id {
+    width: 100%;
+  }
+  
+  /* Add this to adjust the width of the input field inside mat-form-field */
+  .form-id mat-form-field {
+    width: 100%;
+  }
+  

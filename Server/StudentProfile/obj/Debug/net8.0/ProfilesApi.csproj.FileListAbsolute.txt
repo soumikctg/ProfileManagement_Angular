@@ -1,0 +1,91 @@
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\ProfilesApi.csproj.AssemblyReference.cache
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\ProfilesApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\ProfilesApi.AssemblyInfoInputs.cache
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\ProfilesApi.AssemblyInfo.cs
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\ProfilesApi.csproj.CoreCompileInputs.cache
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\ProfilesApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\ProfilesApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\appsettings.Development.json
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\appsettings.json
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\ProfilesApi.exe
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\ProfilesApi.deps.json
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\ProfilesApi.runtimeconfig.json
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\ProfilesApi.dll
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\ProfilesApi.pdb
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\AWSSDK.Core.dll
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\DnsClient.dll
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\SharpCompress.dll
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\Snappier.dll
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\ZstdSharp.dll
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+D:\Dot Net\StudentProfile\StudentProfile\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\staticwebassets.build.json
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\staticwebassets.development.json
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\staticwebassets\msbuild.ProfilesApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\staticwebassets\msbuild.build.ProfilesApi.props
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ProfilesApi.props
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ProfilesApi.props
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\scopedcss\bundle\ProfilesApi.styles.css
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\ProfilesApi.csproj.CopyComplete
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\ProfilesApi.dll
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\refint\ProfilesApi.dll
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\ProfilesApi.pdb
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\ProfilesApi.genruntimeconfig.cache
+D:\Dot Net\StudentProfile\StudentProfile\obj\Debug\net8.0\ref\ProfilesApi.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\appsettings.Development.json
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\appsettings.json
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\ProfilesApi.exe
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\ProfilesApi.deps.json
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\ProfilesApi.runtimeconfig.json
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\ProfilesApi.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\ProfilesApi.pdb
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\AWSSDK.Core.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\DnsClient.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\SharpCompress.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\Snappier.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\ZstdSharp.dll
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+D:\Angular\ProfilesApplication\StudentProfile\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\ProfilesApi.csproj.AssemblyReference.cache
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\ProfilesApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\ProfilesApi.AssemblyInfoInputs.cache
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\ProfilesApi.AssemblyInfo.cs
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\ProfilesApi.csproj.CoreCompileInputs.cache
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\ProfilesApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\ProfilesApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\ProfilesApi.sourcelink.json
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\staticwebassets.build.json
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\staticwebassets.development.json
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\staticwebassets\msbuild.ProfilesApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\staticwebassets\msbuild.build.ProfilesApi.props
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ProfilesApi.props
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ProfilesApi.props
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\scopedcss\bundle\ProfilesApi.styles.css
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\ProfilesApi.csproj.CopyComplete
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\ProfilesApi.dll
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\refint\ProfilesApi.dll
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\ProfilesApi.pdb
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\ProfilesApi.genruntimeconfig.cache
+D:\Angular\ProfilesApplication\StudentProfile\obj\Debug\net8.0\ref\ProfilesApi.dll

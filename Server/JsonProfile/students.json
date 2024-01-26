@@ -1,0 +1,100 @@
+[
+  {
+    "FirstName": "Ethan",
+    "LastName": "Fletcher",
+    "Contact": "1111111111",
+    "Address": "210 Cedar Ln",
+    "Department": "History"
+  },
+  {
+    "FirstName": "Aria",
+    "LastName": "Sullivan",
+    "Contact": "3333333333",
+    "Address": "567 Pinecrest Dr",
+    "Department": "Mathematics"
+  },
+  {
+    "FirstName": "Grayson",
+    "LastName": "Wells",
+    "Contact": "5555555555",
+    "Address": "890 Cedar Ave",
+    "Department": "Science"
+  },
+  {
+    "FirstName": "Layla",
+    "LastName": "Barnes",
+    "Contact": "7777777777",
+    "Address": "123 Oakwood Dr",
+    "Department": "English"
+  },
+  {
+    "FirstName": "Oscar",
+    "LastName": "Fleming",
+    "Contact": "9999999999",
+    "Address": "456 Birch Ave",
+    "Department": "Art"
+  },
+  {
+    "FirstName": "Ella",
+    "LastName": "Mendez",
+    "Contact": "2222222222",
+    "Address": "789 Pinehurst Ln",
+    "Department": "Physics"
+  },
+  {
+    "FirstName": "Caleb",
+    "LastName": "Bowman",
+    "Contact": "4444444444",
+    "Address": "321 Oak Ln",
+    "Department": "Computer Science"
+  },
+  {
+    "FirstName": "Aurora",
+    "LastName": "Simon",
+    "Contact": "6666666666",
+    "Address": "654 Cedar Rd",
+    "Department": "Geography"
+  },
+  {
+    "FirstName": "Lincoln",
+    "LastName": "Carroll",
+    "Contact": "8888888888",
+    "Address": "987 Redwood Dr",
+    "Department": "Music"
+  },
+  {
+    "FirstName": "Scarlett",
+    "LastName": "Peters",
+    "Contact": "0000000000",
+    "Address": "876 Maple St",
+    "Department": "Physical Education"
+  },
+  {
+    "FirstName": "Eli",
+    "LastName": "Horton",
+    "Contact": "1212121212",
+    "Address": "543 Pine Ln",
+    "Department": "Chemistry"
+  },
+  {
+    "FirstName": "Hannah",
+    "LastName": "Arnold",
+    "Contact": "3434343434",
+    "Address": "678 Oakwood Dr",
+    "Department": "History"
+  },
+  {
+    "FirstName": "Mateo",
+    "LastName": "Ramirez",
+    "Contact": "5656565656",
+    "Address": "901 Birch Ave",
+    "Department": "Mathematics"
+  },
+  {
+    "FirstName": "Nova",
+    "LastName": "Henderson",
+    "Contact": "7878787878",
+    "Address": "234 Pinecrest Dr",
+    "Department": "Science"
+  }
+]
