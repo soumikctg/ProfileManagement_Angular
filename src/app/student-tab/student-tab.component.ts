@@ -20,6 +20,10 @@ import {
 import { MatMenuModule } from '@angular/material/menu';
 import { UpdateStudentComponent } from '../update-student/update-student.component';
 import { PartialUpdateStudentComponent } from '../partial-update-student/partial-update-student.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-student-tab',
@@ -34,7 +38,12 @@ import { PartialUpdateStudentComponent } from '../partial-update-student/partial
     MatPaginatorModule,
     MatPaginator,
     MatMenuModule,
-    MatButtonModule
+    MatButtonModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    FormsModule,
+    MatFormFieldModule,
+    CommonModule
   ],
   templateUrl: './student-tab.component.html',
   styleUrl: './student-tab.component.css',
@@ -58,6 +67,11 @@ export class StudentTabComponent {
   pageNumber=1;
   pageSize = 5;
   totalStudents!:number;
+
+  singleStudentName!:string;
+  singleStudentId!:string;
+  singleStudent!:Students;
+
   constructor(
     private dialog: MatDialog,
     private studentService: StudentsService,
@@ -82,6 +96,22 @@ export class StudentTabComponent {
 
   addStudentForm() {
     this.dialog.open(StudentFormComponent);
+  }
+
+  getStudentById(){
+    this.studentService.getStudentById(this.singleStudentId).subscribe(
+      student =>{
+        this.singleStudent=student;
+      }
+    )
+  }
+
+  getStudentByName(){
+    this.studentService.getStudentByName(this.singleStudentName).subscribe(
+      student =>{
+        this.singleStudent=student;
+      }
+    )
   }
 
   updateStudent(student:Students){

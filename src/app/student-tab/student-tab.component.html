@@ -1,6 +1,37 @@
 <div class="upper-container">
   <mat-card>
-    <mat-card-content>Simple card</mat-card-content>
+    <mat-card-content class="main-div">
+      <div class="search-div">
+        <mat-form-field class="search-field">
+          <mat-label>Search By Id:</mat-label>
+          <input [(ngModel)]="singleStudentName" type="text" matInput />
+        </mat-form-field>
+        <button mat-raised-button type="button" (click)="getStudentByName()">
+          Search
+        </button>
+      </div>
+      <div *ngIf="singleStudent" class="result-div">
+        <mat-card class="result">
+          <mat-card-title align="center"
+            >Name: {{ singleStudent.FirstName }}
+            {{ singleStudent.LastName }}</mat-card-title
+          >
+          <mat-card-subtitle align="center"
+            >ID: {{ singleStudent.Id }}</mat-card-subtitle
+          >
+          <mat-card-content>
+            <p>Contact: {{ singleStudent.Contact }}</p>
+            <p>Address: {{ singleStudent.Address }}</p>
+            <p>Department: {{ singleStudent.Department }}</p>
+          </mat-card-content>
+          <mat-card-actions class="action-button">
+            <button mat-raised-button (click)="updateStudent(singleStudent)">Update</button>
+            <button mat-raised-button (click)="partialUpdateStudent(singleStudent)">Partial Upadate</button>
+            <button mat-raised-button (click)="deleteStudent(singleStudent.Id!)">Delete</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </mat-card-content>
   </mat-card>
 </div>
 
@@ -18,7 +49,6 @@
 
   <div class="mat-elevation-z8">
     <table mat-table [dataSource]="newStudents">
-
       <ng-container matColumnDef="serialNumber">
         <th mat-header-cell *matHeaderCellDef>Sr.</th>
         <td mat-cell *matCellDef="let element; let i = index">{{ i + 1 }}</td>
@@ -57,11 +87,19 @@
       <ng-container matColumnDef="Actions">
         <th mat-header-cell *matHeaderCellDef>Actions</th>
         <td mat-cell *matCellDef="let element">
-          <button  mat-raised-button [matMenuTriggerFor]="beforeMenu">Action</button>
+          <button mat-raised-button [matMenuTriggerFor]="beforeMenu">
+            Action
+          </button>
           <mat-menu #beforeMenu="matMenu" xPosition="before">
-            <button mat-menu-item (click)="updateStudent(element)">Update</button>
-            <button mat-menu-item (click)="partialUpdateStudent(element)">Partial Upadate</button>
-            <button mat-menu-item (click)="deleteStudent(element.Id)">Delete</button>
+            <button mat-menu-item (click)="updateStudent(element)">
+              Update
+            </button>
+            <button mat-menu-item (click)="partialUpdateStudent(element)">
+              Partial Upadate
+            </button>
+            <button mat-menu-item (click)="deleteStudent(element.Id)">
+              Delete
+            </button>
           </mat-menu>
         </td>
       </ng-container>

@@ -20,3 +20,26 @@
   font-size: large;
 }
 
+.main-div{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form-field{
+  min-width: 400px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.search-field{
+  width: 100%;
+}
+
+.action-button{
+  display: flex;
+  gap: 5px;
+}
