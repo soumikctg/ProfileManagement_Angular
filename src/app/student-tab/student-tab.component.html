@@ -18,33 +18,32 @@
 
   <div class="mat-elevation-z8">
     <table mat-table [dataSource]="newStudents">
+
       <ng-container matColumnDef="serialNumber">
         <th mat-header-cell *matHeaderCellDef>Sr.</th>
         <td mat-cell *matCellDef="let element; let i = index">{{ i + 1 }}</td>
       </ng-container>
+
       <ng-container matColumnDef="Id">
         <th mat-header-cell *matHeaderCellDef>Id</th>
         <td mat-cell *matCellDef="let element">{{ element.Id }}</td>
       </ng-container>
-      <!-- Position Column -->
+
       <ng-container matColumnDef="FirstName">
         <th mat-header-cell *matHeaderCellDef>First Name</th>
         <td mat-cell *matCellDef="let element">{{ element.FirstName }}</td>
       </ng-container>
 
-      <!-- Name Column -->
       <ng-container matColumnDef="LastName">
         <th mat-header-cell *matHeaderCellDef>Last Name</th>
         <td mat-cell *matCellDef="let element">{{ element.LastName }}</td>
       </ng-container>
 
-      <!-- Weight Column -->
       <ng-container matColumnDef="Contact">
         <th mat-header-cell *matHeaderCellDef>Contact</th>
         <td mat-cell *matCellDef="let element">{{ element.Contact }}</td>
       </ng-container>
 
-      <!-- Symbol Column -->
       <ng-container matColumnDef="Address">
         <th mat-header-cell *matHeaderCellDef>Address</th>
         <td mat-cell *matCellDef="let element">{{ element.Address }}</td>
@@ -60,9 +59,9 @@
         <td mat-cell *matCellDef="let element">
           <button  mat-raised-button [matMenuTriggerFor]="beforeMenu">Action</button>
           <mat-menu #beforeMenu="matMenu" xPosition="before">
-            <button mat-menu-item>Update</button>
-            <button mat-menu-item>Partial Upadate</button>
-            <button mat-menu-item>Delete</button>
+            <button mat-menu-item (click)="updateStudent(element)">Update</button>
+            <button mat-menu-item (click)="partialUpdateStudent(element)">Partial Upadate</button>
+            <button mat-menu-item (click)="deleteStudent(element.Id)">Delete</button>
           </mat-menu>
         </td>
       </ng-container>

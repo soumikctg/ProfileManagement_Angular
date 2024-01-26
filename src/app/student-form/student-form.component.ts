@@ -36,7 +36,7 @@ export class StudentFormComponent {
       alert("User added Successfully")
       this.studentForm.reset();
       this.dialogRef.close();
-      window.location.reload();
+      // window.location.reload();
     })
   }
 

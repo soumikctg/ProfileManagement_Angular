@@ -18,6 +18,8 @@ import {
 } from '@angular/material/paginator';
 
 import { MatMenuModule } from '@angular/material/menu';
+import { UpdateStudentComponent } from '../update-student/update-student.component';
+import { PartialUpdateStudentComponent } from '../partial-update-student/partial-update-student.component';
 
 @Component({
   selector: 'app-student-tab',
@@ -80,5 +82,25 @@ export class StudentTabComponent {
 
   addStudentForm() {
     this.dialog.open(StudentFormComponent);
+  }
+
+  updateStudent(student:Students){
+    this.dialog.open(UpdateStudentComponent, {
+      data: {student}
+    });
+  }
+
+  partialUpdateStudent(student:Students){
+    this.dialog.open(PartialUpdateStudentComponent, {
+      data: {student}
+    });
+  }
+
+  deleteStudent(studentId:string){
+    this.studentService.deleteStudent(studentId).subscribe(
+      () => {
+        alert("User Deletede Successfully");
+      }
+    );
   }
 }

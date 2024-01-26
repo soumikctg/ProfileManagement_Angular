@@ -26,4 +26,12 @@ export class StudentsService {
   getPagedStudents(page:number, pageSize: number){
     return this.http.get<pageItems>(`${this.apiUrl}/api/Student/Pagination?page=${page}&pageSize=${pageSize}`)
   }
+
+  updateStudent(student:Students): Observable<Students>{
+    return this.http.put<Students>(`${this.apiUrl}/api/Student/UpdateStudent?id=${student.Id}`, student);
+  }
+  
+  deleteStudent(studentId:string):Observable<void>{
+    return this.http.delete<void>(`${this.apiUrl}/api/Student/DeleteStudent?id=${studentId}`);
+  }
 }
